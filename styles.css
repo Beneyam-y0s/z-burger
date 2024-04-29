@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.section-p1{
+    padding: 40px 80px;
+}
+.section-m1 {
+    margin: 40px 0;
+}
+body{
+    width: 100%;
+    
+}
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #F9B209;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+    color: #C40C0C;
+}
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #C40C0C;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+#hero{
+    background-image: url(image/home/mae-mu-I7A_pHLcQK8-unsplash.jpg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 65% right 50%;
+    padding: 150px 80px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+    
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  h1 {
+    font-weight: bold; /* Specifies the thickness of the font */
+    font-family: Arial, sans-serif; /* Specifies the font family */
+    font-size: 40px;
+ 
+    color: white;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0; /* Optional: Remove default margin */
+  
+}
+h4{
+    padding: 25px 0;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+h2{
+    color: white;
+}
+
+#hero button {
+    background-color: #ff5722; /* Background color */
+    color: #fff; /* Text color */
+    font-size: 20px; /* Text size */
+    padding: 15px 30px; /* Padding */
+    border: none; /* No border */
+    border-radius: 40px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+  }
+#hero button:hover {
+    background-color: #f44336; /* Change background color on hover */
+  }
